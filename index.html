@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milagres da Eucaristia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Milagres da Eucaristia</h1>
+        <nav>
+            <a href="#intro">Introdução</a>
+            <a href="#milagres">Milagres</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>O que é a Eucaristia?</h2>
+        <p>A Eucaristia é o sacramento do Corpo e Sangue de Cristo, um mistério central da fé católica...</p>
+    </section>
+
+    <section id="milagres">
+        <h2>Milagres registrados</h2>
+        <div class="cards-container">
+            <a class="card" href="lanciano.html">
+    <h3>Milagre de Lanciano</h3>
+    <p>Um dos mais famosos milagres eucarísticos...</p>
+</a>
+
+            <div class="card" onclick="showDetails('milagre2')">
+                <h3>Milagre de Buenos Aires</h3>
+                <p>Um caso recente de sangue preservado...</p>
+            </div>
+            <!-- Adicione mais cards -->
+        </div>
+    </section>
+
+    <section id="detalhes">
+        <h2>Detalhes</h2>
+        <p id="detalhe-texto">Clique em um milagre acima para ver mais informações.</p>
+    </section>
+
+    <footer id="contato">
+        <p>Site educativo sobre a Eucaristia | Desenvolvido por Gabriel</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

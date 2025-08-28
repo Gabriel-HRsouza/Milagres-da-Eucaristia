@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3;
+    color: #333;
+}
+
+header {
+    background-color: #b22222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 200px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+a.card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+#lanciano-page h2 {
+    text-align: center;
+}
+
+/* --- Geral da página --- */
+body#lanciano-page {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to right, #fff8f0, #f5e6d3);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #800000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* --- Seções --- */
+main {
+    padding: 40px 20px;
+}
+
+main section {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* --- Títulos h2 --- */
+main section h2 {
+    font-size: 2.2rem;
+    color: #800000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* --- Parágrafo --- */
+main section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* --- Vídeo --- */
+section.video video {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+section.video video:hover {
+    transform: scale(1.05);
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+/* Container flexível para os vídeos */
+.videos-container {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    gap: 20px; /* espaço entre os vídeos */
+    flex-wrap: wrap; /* quebra a linha em telas pequenas */
+}
+
+/* Estilo para cada vídeo */
+.videos-container video {
+    width: 45%; /* cada vídeo ocupa 45% da largura do container */
+    max-width: 500px; /* tamanho máximo */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.videos-container video:hover {
+    transform: scale(1.05);
+}
